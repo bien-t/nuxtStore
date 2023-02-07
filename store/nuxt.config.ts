@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     colorMode: { classSuffix: '' },
     runtimeConfig: {
         API_WRITETOKEN: process.env.WRITE_TOKEN,
-        MAGIC_SECRET_KEY: process.env.MAGIC_SECRET,
+        MAGIC_SECRET_KEY: process.env.MAGIC_SECRET_KEY,
     },
 
 })
